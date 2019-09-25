@@ -1,1 +1,14 @@
-
+demo.30m              107373568   Tue Oct 27 10:03:23 2009
+demo-inter.class          10648   Wed Feb 10 17:22:49 2016
+demo-class.tar.gz      86284892   Thu Apr  7 15:29:44 2016
+demo.fits              93286080   Mon Oct 24 10:26:41 2016
+class-tutorial.pdf     10659433   Thu Oct 27 16:36:45 2016
+demo-imaging.pdf        1843728   Mon Sep  9 09:29:58 2019
+demo-cube.pdf            566364   Mon Sep  9 09:29:58 2019
+demo-basics.pdf         3747889   Mon Sep  9 09:29:58 2019
+demo-survey.pdf          897851   Mon Sep  9 09:29:58 2019
+demo-catalogs.pdf       2823595   Mon Sep  9 09:29:58 2019
+http://www.iram.fr/IRAMFR/GILDAS/
+elect demonstration data and scripts 
+ CLASS
+    dedicated to the processing of single–dish spectra; CLASS (pdf) is oriented towards the processing of a large quantity of spectra (see IRAM memo 2005-1); WEEDS (pdf) is an extension of CLASS based on the GILDAS-PYTHON binding; it accesses online spectral catalogs to ease the analysis of spectral surveys or spectral lines observations with large bandwidths; demonstration data and scripts are available. 
