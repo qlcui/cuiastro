@@ -13,3 +13,20 @@ plt.figure()
 plt.imshow(image_data)
 plt.colorbar()
 plt.show()
+---------------------------------------------------
+我看很多博客写的内容，感觉还是这一篇比较简便明了，链接：https://www.cnblogs.com/wulinmenghuantejing/p/8378019.html
+
+读取fits文件：
+
+1.from astropy.io import fits       #导入函数库
+
+2.raw_picture=fits.open('****.fit')   #读取fits文件
+
+3.raw_picture.info()                     #看文件的信息有几层
+
+4.raw_picture[0].header             #看头文件
+
+5.raw_picture[0].data                 #看文件数据 
+ 
+
+备注：一般文件的数据在第二层，看文件数据格式：raw_picture[1].data  ；由于我的数据比较特殊在第一层所以我的是在第一层中看到。
