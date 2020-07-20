@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+from astropy.utils.data import get_pkg_data_filename
+from astropy.io import fits
+image_file = get_pkg_data_filename('data/Hoag.fits')
+fits.info(image_file)
+# 读取fits图像数据（2D numpy 数组）
+image_data = fits.getdata(image_file)
+# 打印维度
+print(image_data.shape)
+
+绘制fits图片
+plt.figure()
+plt.imshow(image_data)
+plt.colorbar()
+plt.show()
